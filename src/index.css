@@ -1,34 +1,23 @@
-.App{
+.App {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  grid-gap: 20px; 
+  grid-template-rows: auto; 
+  grid-template-columns: 100%;
 }
 
-.heading{
+.heading {
   background-image: url(images/image-hero.jpg);
   background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-
+  grid-row: 1;
+  width: 100%; 
 }
 
-.about{
+.about {
   background-color: blue;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
+  grid-row: 2; 
 }
 
-.footer{
+.footer {
   background-color: black;
-  position: absolute;
-  top: 0;
-  left: 0;
+  grid-row: 3;
   width: 100%;
-  height: auto;
 }
