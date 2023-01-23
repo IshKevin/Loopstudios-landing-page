@@ -44,3 +44,9 @@ a{
   font-size: 40px;
   margin-top: 20px;
 }
+
+.vrimage{
+  background-image: url(images/image-hero.jpg);
+  background-size: cover;
+
+}
