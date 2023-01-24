@@ -25,7 +25,10 @@ const about = () => {
              <div className='imag4'></div>
             </div>
             <div className='photocase2'>
-
+            <div className='imag5'></div>
+            <div className='imag6'></div>
+            <div className='imag7'></div>
+            <div className='imag8'></div>
             </div>
         </div>
         </div>
