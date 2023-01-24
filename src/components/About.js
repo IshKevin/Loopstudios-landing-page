@@ -23,7 +23,9 @@ const about = () => {
         </div>
         <div className='photocases'>
             <div className='photocase1'>
-             <div className='imag1'></div>
+             <div className='imag1' style={{position:"relative"}}>
+              <div style={{position:"absolute",zIndex:"99"}}>ytuy</div>
+             </div>
              <div className='imag2'></div>
              <div className='imag3'></div>
              <div className='imag4'></div>
