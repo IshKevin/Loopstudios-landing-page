@@ -20,7 +20,7 @@ const about = () => {
 </div>
 
         <div className='sect2'>
-           <h3>our creations </h3>
+           <h3>OUR CREATIONS </h3>
            <button> see all</button> 
         </div>
         <div className='photocases'>
