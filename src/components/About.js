@@ -6,7 +6,7 @@ const about = () => {
       <div className='sect1'>
   <div className='sect1-a'>
     <img className='im1' src={"image-interactive.jpg"} alt=''/>
-    <img className='im2' src={"image-interactive-mb.jpg"} alt=''/>
+    
     
   </div>
   <div className='sect1-b'>

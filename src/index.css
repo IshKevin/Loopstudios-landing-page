@@ -316,10 +316,178 @@ footer-1{
     grid-row: 2; 
     font-family: 'Josefin Sans', sans-serif;
     font-size: 15px;
+    margin: 20px;
   }
 
   .im1{
-    display: none;
+    width: auto;
+    height: auto;
+  }
+
+  .imag1{
+    background-image: url(mobile/image-deep-earth.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 150px;
+    position:absolute;
+    margin-left: 40px;
+    margin-right: 40px; 
+  }
+  
+  .imag1::after {
+    content: "DEEP EARTH"; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    text-align: center; 
+    color: white; 
+    padding: 10px; 
+  }
+  
+  .imag2{
+    background-image: url(mobile/image-night-arcade.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 150px;
+    position:absolute;
+    margin-left: 40px;
+    margin-right: 40px; 
+  }
+  
+  .imag2::after {
+    content: "NIGHT ARCADE"; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    text-align: center; 
+    color: white; 
+    padding: 10px; 
+  }
+  .imag3{
+    background-image: url(/src/mobile/image-soccer-team.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 150px;
+    position:absolute;
+    margin-left: 40px;
+    margin-right: 40px; 
+  }
+  
+  .imag3::after {
+    content: "SOCCER TEAM VR"; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    text-align: center; 
+    color: white; 
+    padding: 10px; 
+  }
+  
+  .imag4{
+    background-image: url(mobile/image-grid.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 150px;
+    position:absolute;
+    margin-left: 40px;
+    margin-right: 40px; 
+  }
+  
+  .imag4::after {
+    content: "THE GRID"; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    text-align: center; 
+    color: white; 
+    padding: 10px; 
+  }
+  
+  .imag5{
+    background-image: url(mobile/image-from-above.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 150px;
+    position:absolute;
+    margin-left: 40px;
+    margin-right: 40px; 
+  }
+  
+  .imag5::after {
+    content: "FROM UP ABOVE VR";
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    text-align: center; 
+    color: white; 
+    padding: 10px; 
+  }
+  .imag6{
+    background-image: url(mobile/image-pocket-borealis.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 150px;
+    position:absolute;
+    margin-left: 40px;
+    margin-right: 40px; 
+  }
+  
+  .imag6::after {
+    content: "POCKET  BOREALIS"; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    text-align: center; 
+    color: white; 
+    padding: 10px; 
+  }
+  
+  .imag7{
+    background-image: url(mobile/image-curiosity.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 150px;
+    position:absolute;
+    margin-left: 40px;
+    margin-right: 40px; 
+  }
+  
+  .imag7::after {
+    content: "THE CURIOSITY"; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    text-align: center; 
+    color: white; 
+    padding: 10px; 
+  }
+  
+  .imag8{
+    background-image: url(mobile/image-fisheye.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 150px;
+    position:absolute;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .imag8::after {
+    content: "MAKE IT FISHEYE"; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    text-align: center; 
+    color: white; 
+    padding: 10px; 
   }
 
   
