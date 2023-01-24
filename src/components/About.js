@@ -14,7 +14,19 @@ const about = () => {
             </p>
         </div>
         <div>
-           <div></div> 
+           <h3>our creations </h3>
+           <button> see all</button> 
+        </div>
+        <div className='photocases'>
+            <div className='photocase1'>
+             <div className='imag1'></div>
+             <div className='imag2'></div>
+             <div className='imag3'></div>
+             <div className='imag4'></div>
+            </div>
+            <div className='photocase2'>
+
+            </div>
         </div>
         </div>
     </div>
