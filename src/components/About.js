@@ -10,18 +10,20 @@ const about = () => {
     
   </div>
   <div className='sect1-b'>
+    <p className='box-text'>
     <h3> THE LEADER IN <br/>INTERACTIVE VR</h3>
     <p>Founded in 2011, loopstudio has been producing world-class<br/> 
     virtully rearty projects for some of best companies around the <br/> 
     globe our award winning creations have transformed <br/>
     bussiness through digital experience that bind on their brinde 
     </p>
+    </p>
   </div>
 </div>
 
         <div className='sect2'>
            <h3 className='sect2-i'>OUR CREATIONS </h3>
-           <h4 className='sect2-ii'> see all</h4> 
+           <h4 className='sect2-ii'> SEE ALL</h4> 
         </div>
         <div className='photocases'>
             <div className='photocase1'>
