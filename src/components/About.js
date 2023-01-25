@@ -20,8 +20,8 @@ const about = () => {
 </div>
 
         <div className='sect2'>
-           <h3>OUR CREATIONS </h3>
-           <button> see all</button> 
+           <h3 className='sect2-i'>OUR CREATIONS </h3>
+           <button className='sect2-ii'> see all</button> 
         </div>
         <div className='photocases'>
             <div className='photocase1'>
