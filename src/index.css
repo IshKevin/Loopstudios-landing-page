@@ -53,7 +53,12 @@ svg{
   float: right;
   margin-left: auto;
   padding-right: 70px;
-  border: 1px solid rgb(184, 182, 182);
+  border: 1px solid rgb(202, 201, 201);
+}
+.box-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .footer {
   background-color: black;
@@ -73,6 +78,7 @@ svg{
   display: flex;
   flex-direction: row;
   row-gap: 500px;
+  justify-content: center;
 }
 .insta-log{
   display: inline-block;
@@ -651,6 +657,7 @@ a{
   margin-top: 50px;
   display: flex;
   flex-direction: column;
+  row-gap: 0px;
 }
 .insta-log{
   margin-bottom: 25px;
