@@ -3,7 +3,7 @@ import React from 'react'
 const about = () => {
   return (
     <div className='about'>
-      <div className='sect1'>
+  <div className='sect1'>
   <div className='sect1-a'>
     <img className='im1' src={"image-interactive.jpg"} alt=''/>
     
@@ -21,7 +21,7 @@ const about = () => {
 
         <div className='sect2'>
            <h3 className='sect2-i'>OUR CREATIONS </h3>
-           <button className='sect2-ii'> see all</button> 
+           <h4 className='sect2-ii'> see all</h4> 
         </div>
         <div className='photocases'>
             <div className='photocase1'>
