@@ -38,6 +38,9 @@ const about = () => {
             <div className='imag8'></div>
             </div>
         </div>
+        <div className='mobi-link'>
+          <p className='p-link'>SEE ALL</p>
+          </div>
         </div>
   )
 }

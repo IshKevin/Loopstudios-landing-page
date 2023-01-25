@@ -28,6 +28,9 @@
   padding-bottom: 40px;
   padding-left: 40px;
 }
+svg{
+  padding-left: 20px;
+}
 
 
 .about {
@@ -282,6 +285,9 @@ footer-1{
   display: flex;
   flex-direction: row;
 }
+.mobi-link{
+  display: none;
+}
 
 @media only screen and (max-width: 600px) {
   .App {
@@ -323,10 +329,10 @@ footer-1{
     color: azure;
     width: 420px; 
     height: 350px; 
-    margin-top: 100px; 
+    margin-top: 350px; 
     font-family: 'Alata', sans-serif;
     font-weight: 400;
-    margin-top: 150px;
+    
     
   }
  .box-p{
@@ -341,6 +347,9 @@ footer-1{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 15px;
     margin: 20px;
+  }
+  .sect2-ii{
+    display: none;
   }
 
   .im1{
@@ -358,6 +367,13 @@ footer-1{
   p{
     font-size: 30px;
     text-align: center; 
+  }
+
+  .sect1-b{
+    margin-top: 50px;
+  }
+  .sect2{
+    margin-top: 50px;
   }
 
   .photocase1, .photocase2 {
@@ -536,6 +552,20 @@ footer-1{
     padding: 10px; 
   }
 
+  .mobi-link{
+    display: block;
+    border: 1px solid rgb(15, 15, 15);
+    color: rgb(7, 7, 7);
+    width: 400px; 
+    height: 50px; 
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+
+  }
+.p-link{
+  font-size: 25px;
+  text-align: center;
+}
   
   
   .footer {
@@ -555,6 +585,20 @@ footer-1{
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin: 25px;
+}
+a{
+  margin: 25px;
+  font-size: 20px;
+}
+.footer-1{
+  margin-top: 50px;
+}
+.insta-log{
+  margin-bottom: 25px;
+}
+.copy-right{
+  margin-bottom: 50px;
 }
 
 /* .navBar {
