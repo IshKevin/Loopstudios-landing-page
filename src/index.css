@@ -23,10 +23,10 @@
   display: none;
 }
 .display{
-  padding-top: 80px;
-  padding-right: 40px;
-  padding-bottom: 40px;
-  padding-left: 40px;
+  margin-top: 80px;
+  margin-right: 25px;
+  margin-bottom: 40px;
+  margin-left: 40px;
 }
 svg{
   padding-left: 20px;
@@ -81,22 +81,28 @@ a{
 .links{
   display: flex;
   align-items: center; 
-  margin: 0 -10px; 
-  max-width: 100vw; 
-  overflow: hidden; 
+  margin-right: 0 -10px; 
 }
 
 .box{
   border: 1px solid rgb(255, 254, 254);
   color: azure;
-  width: 300px; 
-  height: 160px; 
-  margin-top: 50px; 
+  width: 500px; 
+  height: 260px; 
+  margin-top: 150px;
+  margin-left: 60px; 
   font-family: 'Alata', sans-serif;
   font-weight: 400;
-  font-size: 40px;
-  margin-top: 20px;
+  
+  
 }
+.box-p{
+margin: 15px;
+font-size: 65px;
+text-align: left;
+} 
+
+
 .photocase1, .photocase2 {
   display: flex;
   justify-content: center; 
@@ -309,15 +315,22 @@ footer-1{
     
     
   }
+
+  .display{
+    margin: 10px;
+  }
+
   .links{
     display: none;
   }
   .menu{
     display: block;
     float: right;
-    position: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
 
   }
+
   .looplog{
     float: left;
     margin-top: 30px;
@@ -329,7 +342,9 @@ footer-1{
     color: azure;
     width: 420px; 
     height: 350px; 
-    margin-top: 350px; 
+    margin-top: 350px;
+    margin-right: auto;
+    margin-left: auto; 
     font-family: 'Alata', sans-serif;
     font-weight: 400;
     
