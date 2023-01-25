@@ -68,6 +68,12 @@ svg{
   display: grid;
   grid-template-columns: auto;
 }
+.footer-1{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  row-gap: 500px;
+}
 .insta-log{
   display: inline-block;
   letter-spacing: 20px;
@@ -420,6 +426,7 @@ footer-1{
   .sect1-b{
     margin-top: 50px;
     position:static;
+    height: auto;
   }
   .sect2{
     margin-top: 50px;
@@ -642,6 +649,8 @@ a{
 }
 .footer-1{
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
 }
 .insta-log{
   margin-bottom: 25px;
