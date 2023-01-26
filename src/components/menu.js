@@ -1,26 +1,27 @@
-// import { useState } from "react"
+import React from 'react'
 
-// // const [navbarOpen, setNavbarOpen] = useState(false);
+function menu() {
+  return (
+    <div className='humbemenu'>
+        <nav>
+            <div className="logo"><h1>Deltaty</h1></div>
+            <div className="openMenu"><i className="fa fa-bars"></i></div>
+            <ul className="mainMenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <div className="closeMenu"><i className="fa fa-times"></i></div>
+                <span className="icons">
+                    <i className="fab fa-facebook"></i>
+                    <i className="fab fa-instagram"></i>
+                    <i className="fab fa-twitter"></i>
+                    <i className="fab fa-github"></i>
+                </span>
+            </ul>
+        </nav>
+    </div>
+  )
+}
 
-// function menu() {
-//     const closeMenu = () => {
-//         setNavbarOpen(false)
-//       }
-//     const handleToggle = () => {
-//         setNavbarOpen(!navbarOpen)
-//       }
-//   return (
-//     <nav className="navBar">
-//     <button>{navbarOpen ? "Close" : "Open"}</button>
-//     <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
-//     <a href={'#'}>About</a>
-//     <a href='#'>Careers</a>
-//     <a href='#'>Events</a>
-//     <a href='#'>Products</a>
-//     <a href='#'>Support</a>
-//     </ul>
-//   </nav>
-//   )
-// }
-
-// export default menu
+export default menu
