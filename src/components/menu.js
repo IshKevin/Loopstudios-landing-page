@@ -4,21 +4,16 @@ function menu() {
   return (
     <div className='humbemenu'>
         <nav>
-            <div className="logo"><h1>Deltaty</h1></div>
+            <div className="logo"><svg width="24" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="#FFF" fill-rule="evenodd"><path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z"/></g></svg>
+            </div>
             <div className="openMenu"><i className="fa fa-bars"></i></div>
-            <ul className="mainMenu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
-                <div className="closeMenu"><i className="fa fa-times"></i></div>
-                <span className="icons">
-                    <i className="fab fa-facebook"></i>
-                    <i className="fab fa-instagram"></i>
-                    <i className="fab fa-twitter"></i>
-                    <i className="fab fa-github"></i>
-                </span>
-            </ul>
+            <div className='links'>
+            <a href={'#'}>About</a>
+            <a href='#'>Careers</a>
+            <a href='#'>Events</a>
+            <a href='#'>Products</a>
+            <a href='#'>Support</a>
+        </div>
         </nav>
     </div>
   )
