@@ -355,27 +355,21 @@ footer-1{
   }
 
   .links{
-    /* display: none; */
-    
-    position: absolute;
-    background-color: white;
-    top: 0;
-    left: 0;
-    right: 0;
-    /* height: 100vh; */
+    display: none;
  
-  }
-  a{
-    color: black;
   }
   .active {
     display: flex;
     justify-content: space-between;
   }
   .menu{
+    /* position: absolute; */
     display: block;
     /* flex-direction: column; */
-   
+    top: 0;
+    left: 0;
+    right: 0;
+    /* background-color: white; */
     float: right;
     margin-top: 30px;
     margin-left: 20px;
@@ -445,9 +439,7 @@ footer-1{
   
   
   
-.looplog{
-  color: black;
-}
+
   .sect1-b{
     margin-top: 50px;
     position:static;
