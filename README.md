@@ -1,5 +1,5 @@
 # Loopstudio_Landing_Page
 
 Desktop view 
-<img src="desktop-design" />
+<img src="public/desktop-design.jpg" />
 
