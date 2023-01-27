@@ -3,7 +3,7 @@ import Menu from './Menu'
 
 const Header = () => {
 
-  const  [nav ,setNav] =  useState(false);
+  const  [nav ,setNav] =  useState(true);
 
   return (
     <header className='heading'>
